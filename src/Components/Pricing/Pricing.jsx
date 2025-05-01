@@ -73,7 +73,8 @@ const Pricing = () => {
           <div className="enterprise">
             <p className="price">Enterprise Pack – ₹1999+</p>
             <p className="price-text">
-              (Best for established businesses and serious startups looking for a powerful digital presence)
+              (Best for established businesses and serious startups looking for
+              a powerful digital presence)
             </p>
             <p className="pack-features">Included Features</p>
             <ul className="feature-list">
@@ -83,23 +84,31 @@ const Pricing = () => {
               <li className="pack-features-list">
                 🔍 Advanced SEO Optimization
               </li>
-              <li className="pack-features-list">🎨 Premium Custom Design + Branding Support</li>
+              <li className="pack-features-list">
+                🎨 Premium Custom Design + Branding Support
+              </li>
               <li className="pack-features-list">
                 🛠️ Custom Functionality / API Integration
               </li>
-              <li className="pack-features-list">📱 Fully Responsive & Cross-Browser Compatible</li>
-              <li className="pack-features-list">🤝 Priority Email & WhatsApp Support</li>
               <li className="pack-features-list">
-                🔐 Advanced Security Setup
+                📱 Fully Responsive & Cross-Browser Compatible
               </li>
+              <li className="pack-features-list">
+                🤝 Priority Email & WhatsApp Support
+              </li>
+              <li className="pack-features-list">🔐 Advanced Security Setup</li>
               <li className="pack-features-list">
                 🕒 Delivery Time: 15–20 Business Days
               </li>
             </ul>
           </div>
         </div>
-        <a href="../../../Pricing.pdf" target="_blank">View PDF</a>
-
+        <p className="see-pricing">
+          To know more about pricing:{" "}
+          <a href="../../../Pricing.pdf" target="_blank">
+            👉View PDF
+          </a>
+        </p>
       </section>
     </>
   );

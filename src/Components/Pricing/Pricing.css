@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 2%;
 }
 .pricing-sec-heading {
   margin-top: 20px;
@@ -54,6 +55,14 @@
 .feature-list{
     font-size: 1.2em;
     list-style: none;
+}
+.see-pricing{
+    color: #ff9900;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.see-pricing a{
+    text-decoration: none;
 }
 @media (max-width: 768px){
     .pricing-desc{
