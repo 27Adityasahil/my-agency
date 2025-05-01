@@ -98,6 +98,8 @@ const Pricing = () => {
             </ul>
           </div>
         </div>
+        <a href="../../../Pricing.pdf" target="_blank">View PDF</a>
+
       </section>
     </>
   );
