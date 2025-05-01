@@ -1,0 +1,102 @@
+.service-section {
+    min-height: 100vh; /* Allows content to expand naturally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem 2rem; /* Provides top and bottom spacing */
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    background-color: #f9f9f9; /* Optional: light background to separate sections */
+  }
+  
+  .sec-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #111;
+    text-align: center;
+  }
+  
+  .service-sub-heading {
+    font-size: 1.9em;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #111827;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .service-desc-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Wraps on smaller screens */
+    width: 100%;
+    margin-bottom: 12px;
+  }
+ 
+  .service-desc {
+    font-size: 1.5em;
+    margin-top: 2rem;
+    margin-left: 2%;
+    width: 43%;
+    padding: 1.5rem;
+    color: #fff;
+    background-color: #8f8f8f;
+    border-radius: 18px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.24);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: transform 0.3s ease;
+  }
+  .service-desc:hover{
+    transform: translateY(-5px);
+  }
+  .service-image {
+    background: url("https://images.pexels.com/photos/3584994/pexels-photo-3584994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 45%;
+    min-height: 300px;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .service-section {
+      min-height: auto;
+      padding: 4rem 1rem;
+    }
+  
+    .sec-heading {
+      font-size: 1.8em;
+    }
+  
+    .service-sub-heading {
+      font-size: 1.3em;
+      text-align: center;
+      margin: 1rem 0;
+    }
+  
+    .service-desc-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-desc,
+    .service-image {
+      width: 90%;
+      margin: 1rem 0;
+    }
+  }
+  

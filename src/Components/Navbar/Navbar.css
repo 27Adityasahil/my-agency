@@ -1,0 +1,100 @@
+nav {
+  height: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+}
+.logo {
+  width: 30%;
+  color: #4f46e5;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+.nav-links {
+  width: 70%;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu {
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  color: #111827;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+.menu a:hover {
+  color: #4f46e5;
+}
+.contact-btn {
+  background-color: #4f46e5;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: wheat;
+  border: none;
+}
+.contact-btn:hover {
+  background-color: #6366f1;
+  color: white;
+}
+.menu-btn {
+  border: none;
+  background: transparent;
+  display: none;
+}
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f9fafb;
+}
+.mobile-nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.mobile-menu a {
+  text-decoration: none;
+  color: #111827;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide nav links on small screens initially */
+  }
+  .logo {
+    font-size: 1.5em;
+  }
+  .menu-btn {
+    display: block;
+    font-size: 2em;
+    color: #111827;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+  .mobile-contact-btn {
+    background-color: #4f46e5;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: wheat;
+    border: none;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width:768px){
+    .mobile-nav-links{
+        display: none;
+    }
+}

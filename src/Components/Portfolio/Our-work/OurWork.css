@@ -1,0 +1,62 @@
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-modal img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    cursor: grabbing;
+  }
+  
+
+.work-card-container {
+  margin: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(26, 26, 26, 0.662);
+  border-radius: 12px;
+  padding: 1%;
+
+  max-width: 350px;
+}
+
+.img-card {
+  width: 100%;
+  height: 210px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+}
+.img-card:hover {
+  transform: translateY(-5px);
+  cursor: grab;
+}
+.work-desc {
+  color: #4b5563;
+  font-size: 1.3em;
+  margin-bottom: 0.5rem;
+}
+.work-name {
+  font-size: 1.5em;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+.work-link a {
+  text-decoration: none;
+  color: #0687ff;
+}
