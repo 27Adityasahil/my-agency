@@ -1,5 +1,6 @@
 import React from "react";
 import "./Pricing.css";
+import PricingDoc from "./Pricing.pdf"
 const Pricing = () => {
   return (
     <>
@@ -11,7 +12,9 @@ const Pricing = () => {
           you. Check out our affordable packages below and let us help you
           create the perfect website."
         </p>
+        <p className="pricing-notice"><span>Note: - </span>This pricing does not include domain and hosting charges.</p>
         <div className="pricing-card-container">
+          
           <div className="starter">
             <p className="price">Starter Pack - ₹499</p>
             <p className="price-text">
@@ -105,7 +108,7 @@ const Pricing = () => {
         </div>
         <p className="see-pricing">
           To know more about pricing:{" "}
-          <a href="../../../Pricing.pdf" target="_blank">
+          <a href={PricingDoc} target="_blank">
             👉View PDF
           </a>
         </p>

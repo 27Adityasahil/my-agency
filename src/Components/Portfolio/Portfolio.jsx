@@ -8,8 +8,6 @@ const Portfolio = () => {
       <p className="portfolio-desc">"Here are some of the websites we’ve designed and developed for clients across different industries. Each project is built with purpose, performance, and aesthetics in mind."</p>
       <div className="sample-works">
         <OurWork />
-        <OurWork />
-        <OurWork />
       </div>
     </section>
   );

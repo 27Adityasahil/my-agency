@@ -43,12 +43,12 @@ const Navbar = () => {
             <li className="menu">
               <a href="#Pricing">Pricing</a>
             </li>
-            <li className="menu">
+            {/* <li className="menu">
               <a href="#">Testimonials</a>
-            </li>
-            <li className="menu">
+            </li> */}
+            {/* <li className="menu">
               <a href="#">FAQs</a>
-            </li>
+            </li> */}
             <button className="contact-btn btn menu">Contact</button>
           </ul>
         </div>
@@ -71,12 +71,12 @@ const Navbar = () => {
             <li className="mobile-menu">
               <a href="#Pricing">Pricing</a>
             </li>
-            <li className="mobile-menu">
+            {/* <li className="mobile-menu">
               <a href="#">Testimonials</a>
             </li>
             <li className="mobile-menu">
               <a href="#">FAQs</a>
-            </li>
+            </li> */}
             <button className="mobile-contact-btn btn mobile-menu">
               Contact
             </button>

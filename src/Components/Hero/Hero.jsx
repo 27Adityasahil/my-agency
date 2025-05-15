@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import BrochureDoc from "./brochure.pdf";
 
 const Hero = () => {
   return (
@@ -16,7 +17,9 @@ const Hero = () => {
         </p>
         <div className="hero-btn">
           <button className="btns">Get a Free Consultation</button>
-          <button className="btns">See our work</button>
+          <a href={BrochureDoc} className="btns" target="_blank">
+            Download Brochure
+          </a>
         </div>
       </div>
       <div className="right-hero">

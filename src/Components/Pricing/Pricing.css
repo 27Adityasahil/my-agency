@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 2%;
+  margin-bottom: 12%;
 }
 .pricing-sec-heading {
   margin-top: 20px;
@@ -24,6 +24,9 @@
 .pricing-card-container{
     width: 90%;
     display: flex;
+}
+.pricing-notice{
+    margin: 2%;
 }
 .pricing-card-container div{
     width: 30%;
@@ -65,6 +68,9 @@
     text-decoration: none;
 }
 @media (max-width: 768px){
+    .pricing-section{
+        margin-bottom: 75%;
+    }
     .pricing-desc{
         width: 80%;
     }
