@@ -16,7 +16,7 @@ const Pricing = () => {
         <div className="pricing-card-container">
           
           <div className="starter">
-            <p className="price">Starter Pack - ₹499</p>
+            <p className="price">Starter Pack - (₹499 - ₹999)</p>
             <p className="price-text">
               (Perfect for individuals and small businesses who need an online
               presence fast)
@@ -33,9 +33,9 @@ const Pricing = () => {
                 ⚡ Fast Loading Speed Optimization
               </li>
               <li className="pack-features-list">🛠️ Basic On-Page SEO Setup</li>
-              <li className="pack-features-list">
+              {/* <li className="pack-features-list">
                 🧩 Contact Form Integration
-              </li>
+              </li> */}
               <li className="pack-features-list">🔒 SSL Certificate Setup</li>
               <li className="pack-features-list">
                 🖼️ Basic Image Optimization
@@ -46,7 +46,7 @@ const Pricing = () => {
             </ul>
           </div>
           <div className="business">
-            <p className="price">Business Pack – ₹999</p>
+            <p className="price">Business Pack – (₹999 - ₹1999)</p>
             <p className="price-text">
               (Ideal for growing businesses ready to scale their online
               presence)
