@@ -16,7 +16,8 @@ const OurWork = () => {
         ></div>
 
         <div className="work-desc">
-          <h3 className="work-name">St. George Academy</h3>
+          <h3 className="work-name">St. George Academy </h3>
+          <p className="status">(currently working on it...)</p>
           <p className="work-details">
             We built a clean, responsive school website that showcases the
             institution’s features, facilities, and values. Designed for clarity

@@ -60,3 +60,8 @@
   text-decoration: none;
   color: #0687ff;
 }
+.status{
+  color: #000;
+  text-decoration: underline;
+  text-align: center;
+}
